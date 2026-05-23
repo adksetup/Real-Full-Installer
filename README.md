@@ -3,26 +3,30 @@
 
 ## ✨ 项目介绍
 RealFullInstaller 是一款基于 Python + CustomTkinter 开发的图形化工具，
-支持在 Windows、macOS、Linux 上搜索、安装、卸载软件，
-自动适配不同平台的包管理器（winget/brew/apt）。
+支持在 macOS / Linux 上搜索、安装、卸载软件，自动适配对应包管理器。
 
 - 图形化界面，无需记忆命令
-- 一键适配三大平台的包管理器
+- 一键适配 brew / apt 包管理器
 - 支持搜索、安装、卸载软件
 - 轻量无依赖，开箱即用
 
+## ⚠️ 重要说明
+本项目 **仅支持 macOS / Linux**
+Windows 暂不支持（Unix 可执行文件无法运行）
+
 ## 📥 下载安装（普通用户）
-本项目已提供打包好的发行版，**无需安装 Python**：
+本项目已提供打包好的发行版，无需安装 Python：
 
 ### macOS
-- **RealFullInstaller.dmg** — mac 标准镜像安装包
+- **RealFullInstaller.dmg** — macOS 标准镜像安装包
 
-### Windows / Linux
-- **RealFullInstaller.zip** — 压缩包
+### Linux
+- **RealFullInstaller.zip** — Linux 可执行压缩包
 
 直接从 Releases 下载对应文件即可使用。
 
-## 🛠️ 源码运行（开发者）
+## 🛠️ 源码运行（全平台）
+如果你想在 Windows 运行，只能使用源码：
 1. 克隆仓库
 ```bash
 git clone https://github.com/adksetup/real-full-installer.git
@@ -42,4 +46,5 @@ python main.py
 ## 📝 版本信息
 - 版本：dev-1.0
 - 状态：开发版
-- 平台：Windows / macOS / Linux
+- 支持平台：macOS / Linux
+- Windows：仅支持源码运行
