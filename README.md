@@ -18,10 +18,10 @@ Windows 暂不支持（Unix 可执行文件无法运行）
 本项目已提供打包好的发行版，无需安装 Python：
 
 ### macOS
-- **RealFullInstaller.dmg** — macOS 标准镜像安装包
+- **Real-Full-Installer-v2.0-macos.dmg** — macOS 标准镜像安装包
 
 ### Linux
-- **RealFullInstaller.zip** — Linux 可执行压缩包
+- **Real-Full-Installer-v2.0-linuxormacos.zip** — Linux 可执行压缩包
 
 直接从 Releases 下载对应文件即可使用。
 
