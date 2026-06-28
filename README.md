@@ -1,7 +1,7 @@
 # RealFullInstaller
 macOS / Linux 软件安装/搜索/卸载工具 | 基于 CustomTkinter
 
-## ✨ 项目介绍
+## 项目介绍
 RealFullInstaller 是一款基于 Python + CustomTkinter 开发的图形化包管理工具，
 支持在 macOS / Linux 上一键搜索、安装、卸载软件，自动适配 brew / apt 包管理器。
 
@@ -10,7 +10,7 @@ RealFullInstaller 是一款基于 Python + CustomTkinter 开发的图形化包�
 - 支持软件搜索、安装、卸载
 - 轻量简洁，开箱即用
 
-## 📦 依赖说明
+## 依赖说明
 本项目依赖：
 - `customtkinter`
 - `termcolor`
@@ -24,11 +24,11 @@ RealFullInstaller 是一款基于 Python + CustomTkinter 开发的图形化包�
 pip install customtkinter termcolor
 ```
 
-## ⚠️ 平台说明
+## 平台说明
 - **macOS / Linux**：可直接运行打包好的 DMG / ZIP
 - **Windows**：无法运行 Unix 可执行文件，仅支持源码运行
 
-## 📥 下载使用（普通用户）
+## 下载使用（普通用户）
 从 Releases 下载对应文件：
 - `RealFullInstaller.dmg` (macOS)
 - `RealFullInstaller.zip` (Linux)
@@ -36,7 +36,7 @@ pip install customtkinter termcolor
 - `install_requirements.bat` (Windows 一键安装依赖)
 - `install_requirements.sh` (macOS/Linux 一键安装依赖)
 
-## 🛠️ 源码运行（全平台）
+## 源码运行（全平台）
 1. 克隆仓库
 ```bash
 git clone https://github.com/adksetup/real-full-installer.git
@@ -53,7 +53,7 @@ cd real-full-installer
 python main.py
 ```
 
-## 📝 版本信息
+## 版本信息
 - 版本：v0.2
 - 状态：正式版
 - 支持平台：macOS / Linux
