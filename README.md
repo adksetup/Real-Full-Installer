@@ -1,6 +1,8 @@
 # RealFullInstaller
 macOS / Linux 软件安装/搜索/卸载工具 | 基于 CustomTkinter
 
+> [English Documentation](./README.en.md) | 中文文档
+
 ## 项目介绍
 RealFullInstaller 是一款基于 Python + CustomTkinter 开发的图形化包管理工具，
 支持在 macOS / Linux 上一键搜索、安装、卸载软件，自动适配 brew / apt 包管理器。
@@ -58,3 +60,9 @@ python main.py
 - 状态：正式版
 - 支持平台：macOS / Linux
 - Windows：仅支持源码运行
+
+## 开源协议
+本项目基于 [MIT License](./LICENSE) 开源。
+
+## 作者
+AdkSetup
