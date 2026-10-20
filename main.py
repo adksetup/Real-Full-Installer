@@ -93,8 +93,26 @@ class RealFullInstaller:
             cprint(text='ERROR: Option Not Found', color='red')
     def search_r(self):
         self.status = 'Search R'
-        print('Operating System (Package Manager): macOS (Brew)')
-        subprocess.run('brew search {0}'.format(self.o_entry2.get(), shell=True))
+        print('What operating system are you using?')
+        print('1 macOS (Brew)')
+        print('2 Linux (Apt)')
+        print('3 Windows (Chocolatey)')
+        print('4 Windows (Winget)')
+        usr_inp2 = input(' (Number) ')
+        if usr_inp2 == '1':
+            print('Operating System (Package Manager): macOS (Brew)')
+            subprocess.run('brew search {0}'.format(self.o_entry2.get()), shell=True)
+        elif usr_inp2 == '2':
+            print('Operating System (Package Manager): Linux (Apt)')
+            subprocess.run('apt search {0}'.format(self.o_entry2.get()), shell=True)
+        elif usr_inp2 == '3':
+            print('Operating System (Package Manager): Windows (Chocolatey)')
+            subprocess.run('choco search {0}'.format(self.o_entry2.get()), shell=True)
+        elif usr_inp2 == '4':
+            print('Operating System (Package Manager): Windows (Winget)')
+            subprocess.run('winget search {0}'.format(self.o_entry2.get()), shell=True)
+        else:
+            cprint(text='ERROR: Option Not Found', color='red')
     def uninstall_r(self):
         self.status = 'Uninstall R'
         print('What operating system are you using?')

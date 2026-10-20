@@ -15,7 +15,7 @@ macOS / Linux 软件安装/搜索/卸载工具 | 基于 CustomTkinter
 RealFullInstaller 是一款基于 Python + CustomTkinter 开发的图形化包管理工具，
 支持在 macOS / Linux 上一键搜索、安装、卸载软件，自动适配 brew / apt 包管理器。
 - 图形化界面，无需记忆命令
-- 一键适配 brew (macOS) / apt (Linux)
+- 一键适配 brew (macOS) / apt (Linux) / choco / winget (Windows)
 - 支持软件搜索、安装、卸载
 - 轻量简洁，开箱即用
 ## 依赖说明
@@ -31,19 +31,19 @@ pip install customtkinter termcolor
 ```
 ## 平台说明
 - **macOS / Linux**：可直接运行打包好的 DMG / ZIP
-- **Windows**：无法运行 Unix 可执行文件，仅支持源码运行
+- **Windows**：支持源码运行（安装 / 搜索 / 卸载均可用 choco 或 winget）
 ## 下载使用（普通用户）
 从 Releases 下载对应文件：
-- `RealFullInstaller.dmg` (macOS)
-- `RealFullInstaller.zip` (Linux)
+- `Real-Full-Installer-v0.2-macos.dmg` (macOS)
+- `Real-Full-Installer-v0.2-linuxormacos.zip` (macOS / Linux)
 - `main.py` (全平台源码)
 - `install_requirements.bat` (Windows 一键安装依赖)
 - `install_requirements.sh` (macOS/Linux 一键安装依赖)
 ## 源码运行（全平台）
 1. 克隆仓库
 ```bash
-git clone https://github.com/adksetup/real-full-installer.git
-cd real-full-installer
+git clone https://github.com/adksetup/Real-Full-Installer.git
+cd Real-Full-Installer
 ```
 2. 安装依赖
 - Windows：双击运行 `install_requirements.bat`
@@ -56,8 +56,7 @@ python main.py
 ## 版本信息
 - 版本：v0.2
 - 状态：正式版
-- 支持平台：macOS / Linux
-- Windows：仅支持源码运行
+- 支持平台：macOS / Linux / Windows（Windows 需源码运行）
 ## 作者
 AdkSetup
 
@@ -70,7 +69,7 @@ Cross-platform software installer / searcher / uninstaller for macOS & Linux, bu
 ## Overview
 RealFullInstaller is a graphical package management tool built with Python + CustomTkinter. It lets you search, install, and uninstall software on macOS / Linux with a single click, automatically adapting to the **brew** (macOS) and **apt** (Linux) package managers.
 - Graphical UI — no commands to memorize
-- One-click support for **brew (macOS)** and **apt (Linux)**
+- One-click support for **brew (macOS)**, **apt (Linux)**, **choco** and **winget** (Windows)
 - Search, install, and uninstall software
 - Lightweight, clean, ready to use out of the box
 ## Dependencies
@@ -86,19 +85,19 @@ pip install customtkinter termcolor
 ```
 ## Platform Notes
 - **macOS / Linux**: Run the packaged DMG / ZIP directly
-- **Windows**: Cannot run Unix executables — source code only
+- **Windows**: Run from source (install / search / uninstall all work with choco or winget)
 ## Download & Use (Regular Users)
 Download the appropriate file from [Releases](../../releases):
-- `RealFullInstaller.dmg` (macOS)
-- `RealFullInstaller.zip` (Linux)
+- `Real-Full-Installer-v0.2-macos.dmg` (macOS)
+- `Real-Full-Installer-v0.2-linuxormacos.zip` (macOS / Linux)
 - `main.py` (source for all platforms)
 - `install_requirements.bat` (Windows one-click dependency installer)
 - `install_requirements.sh` (macOS / Linux one-click dependency installer)
 ## Run from Source (All Platforms)
 1. Clone the repository
 ```bash
-git clone https://github.com/adksetup/real-full-installer.git
-cd real-full-installer
+git clone https://github.com/adksetup/Real-Full-Installer.git
+cd Real-Full-Installer
 ```
 2. Install dependencies
 - **Windows**: Double-click `install_requirements.bat`
@@ -111,8 +110,7 @@ python main.py
 ## Version Info
 - Version: v0.2
 - Status: Stable
-- Supported platforms: macOS / Linux
-- Windows: Source code only
+- Supported platforms: macOS / Linux / Windows (Windows requires running from source)
 ## Author
 
 AdkSetup
