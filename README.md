@@ -34,9 +34,10 @@ pip install customtkinter termcolor
 - **Windows**：支持源码运行（安装 / 搜索 / 卸载均可用 choco 或 winget）
 ## 下载使用（普通用户）
 从 Releases 下载对应文件：
-- `Real-Full-Installer-v0.2-macos.dmg` (macOS)
-- `Real-Full-Installer-v0.2-linuxormacos.zip` (macOS / Linux)
+- `Real-Full-Installer-Mac-v0.3.dmg` (macOS)
+- `Real-Full-Installer-LinuxOrMacOS-v0.3.zip` (macOS / Linux)
 - `main.py` (全平台源码)
+- `Real-Full-Installer-Windows-v0.3.dmg` (Windows)
 - `install_requirements.bat` (Windows 一键安装依赖)
 - `install_requirements.sh` (macOS/Linux 一键安装依赖)
 ## 源码运行（全平台）
@@ -56,7 +57,7 @@ python main.py
 ## 版本信息
 - 版本：v0.2
 - 状态：正式版
-- 支持平台：macOS / Linux / Windows（Windows 需源码运行）
+- 支持平台：macOS / Linux / Windows
 ## 作者
 AdkSetup
 
@@ -88,8 +89,9 @@ pip install customtkinter termcolor
 - **Windows**: Run from source (install / search / uninstall all work with choco or winget)
 ## Download & Use (Regular Users)
 Download the appropriate file from [Releases](../../releases):
-- `Real-Full-Installer-v0.2-macos.dmg` (macOS)
-- `Real-Full-Installer-v0.2-linuxormacos.zip` (macOS / Linux)
+- `Real-Full-Installer-Mac-v0.3.dmg` (macOS)
+- `Real-Full-Installer-LinuxOrMacOS-v0.3.zip` (macOS / Linux)
+- `Real-Full-Installer-Windows-v0.3.dmg` (Windows)
 - `main.py` (source for all platforms)
 - `install_requirements.bat` (Windows one-click dependency installer)
 - `install_requirements.sh` (macOS / Linux one-click dependency installer)
@@ -110,7 +112,7 @@ python main.py
 ## Version Info
 - Version: v0.2
 - Status: Stable
-- Supported platforms: macOS / Linux / Windows (Windows requires running from source)
+- Supported platforms: macOS / Linux / Windows
 ## Author
 
 AdkSetup
