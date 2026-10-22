@@ -13,7 +13,7 @@
 macOS / Linux / Windows 软件安装/搜索/卸载工具 | 基于 CustomTkinter
 ## 项目介绍
 RealFullInstaller 是一款基于 Python + CustomTkinter 开发的图形化包管理工具，
-支持在 macOS / Linux 上一键搜索、安装、卸载软件，自动适配 brew / apt 包管理器。
+支持在 macOS / Linux / Windows 上一键搜索、安装、卸载软件，自动适配 brew / apt / choco / winget 包管理器。
 - 图形化界面，无需记忆命令
 - 一键适配 brew (macOS) / apt (Linux) / choco / winget (Windows)
 - 支持软件搜索、安装、卸载
@@ -37,7 +37,7 @@ pip install customtkinter termcolor
 - `Real-Full-Installer-Mac-v0.3.dmg` (macOS)
 - `Real-Full-Installer-LinuxOrMacOS-v0.3.zip` (macOS / Linux)
 - `main.py` (全平台源码)
-- `Real-Full-Installer-Windows-v0.3.dmg` (Windows)
+- `Real-Full-Installer-Windows-v0.3.exe` (Windows)
 - `InstallDependencies.bat` (Windows 一键安装依赖)
 - `install_dependencies.sh` (macOS/Linux 一键安装依赖)
 ## 源码运行（全平台）
@@ -65,10 +65,10 @@ AdkSetup
 
 <a id="english-documentation"></a>
 
-Cross-platform software installer / searcher / uninstaller for macOS & Linux, built on CustomTkinter.
+Cross-platform software installer / searcher / uninstaller for macOS, Linux & Windows, built on CustomTkinter.
 
 ## Overview
-RealFullInstaller is a graphical package management tool built with Python + CustomTkinter. It lets you search, install, and uninstall software on macOS / Linux with a single click, automatically adapting to the **brew** (macOS) and **apt** (Linux) package managers.
+RealFullInstaller is a graphical package management tool built with Python + CustomTkinter. It lets you search, install, and uninstall software on macOS / Linux / Windows with a single click, automatically adapting to the **brew** (macOS), **apt** (Linux), **choco** and **winget** (Windows) package managers.
 - Graphical UI — no commands to memorize
 - One-click support for **brew (macOS)**, **apt (Linux)**, **choco** and **winget** (Windows)
 - Search, install, and uninstall software
@@ -91,7 +91,7 @@ pip install customtkinter termcolor
 Download the appropriate file from [Releases](../../releases):
 - `Real-Full-Installer-Mac-v0.3.dmg` (macOS)
 - `Real-Full-Installer-LinuxOrMacOS-v0.3.zip` (macOS / Linux)
-- `Real-Full-Installer-Windows-v0.3.dmg` (Windows)
+- `Real-Full-Installer-Windows-v0.3.exe` (Windows)
 - `main.py` (source for all platforms)
 - `InstallDependencies.bat` (Windows one-click dependency installer)
 - `install_dependencies.sh` (macOS / Linux one-click dependency installer)
