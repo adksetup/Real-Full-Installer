@@ -8,7 +8,7 @@ class RealFullInstaller:
         self.window.geometry('280x300')
         self.status: str = ''
         self.window.resizable(True, True)
-        self.window.wm_title('RealFullInstaller 0.2')
+        self.window.wm_title('RealFullInstaller 0.3')
         self.app_name = CTkLabel(self.window, text='RealFullInstaller',
                                  font=('Helvetica bold', 26))
         self.app_name.place(relx=0.5, rely=0.2, anchor='center')
